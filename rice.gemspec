@@ -1,4 +1,4 @@
-require_relative 'ruby/lib/version'
+require './ruby/lib/version'
 $spec = Gem::Specification.new do |s|
   s.name = 'rice'
   s.version = Rice::VERSION
